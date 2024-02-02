@@ -1,11 +1,16 @@
 $(function(){
-    $(document).on("mouseover", '.pr-category>li', function(){
+    $(document)
+    .on("mouseenter", '.pr-category>li', function(){
         $(this).find('.sub-cate').fadeIn();
     })
     .on("mouseleave", '.pr-category>li', function(){
-        $(".sub-cate").fadeOut();
-    })
-  //  $('.pr-category>li').hover(function(){
-  //      $(this).find('.sub-cate').fadeToggle();
- //   });
-});
+        $(".pr-category>li>.sub-cate").fadeOut();
+    }); 
+      $('.category')
+      .mouseenter(function(){
+      $(this).find('.category-subnav').css('display','flex');
+   }).mouseleave(function(){
+      $(this).find('.category-subnav').css('display','none');
+   });
+   
+});  

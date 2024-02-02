@@ -1,0 +1,18 @@
+{
+    "newlist" : [
+
+        {"num":1, "title": "black label", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/001.jpg"},
+        {"num":2,"title": "new hotdeal", "txt":"허리는 밴드거부감 없이!!", "img":"./images/pd/002.jpg"},
+        {"num":3,"title": "office look", "txt":"네크라인과 아랫단은 패턴을 담아 최강 아이템으로", "img":"./images/pd/003.jpg"},
+        {"num":4,"title": "outer", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/004.jpg"},
+        {"num":5,"title": "pants", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/005.jpg"},
+        {"num":6,"title": "slacks", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/006.jpg"},
+        {"num":7,"title": "dress", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/007.jpg"},
+        {"num":8,"title": "accessories", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/008.jpg"},
+        {"num":9,"title": "black label", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/009.jpg"},
+        {"num":10,"title": "hot deal", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/010.jpg"},
+        {"num":11,"title": "event sale", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/011.jpg"},
+        {"num":12,"title": "office look", "txt":"프리미엄 라인, 블랙라벨", "img":"./images/pd/012.jpg"}
+   
+    ]
+}
