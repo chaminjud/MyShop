@@ -16,7 +16,7 @@ a:hover {
 
 .container-max {
     width: 1580px;
-    max-width: 1440px;
+    max-width: 100%;
     padding-left: 80px;
     padding-right: 80px;
     margin-left: auto;
@@ -230,7 +230,7 @@ nav.global {
 
 .category-subnav {
     position: absolute;
-    width: 1310px;
+    width: 1450px;
     height: 600px;
     z-index: 101;
     background: #fff;

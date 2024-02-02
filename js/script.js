@@ -18,7 +18,7 @@ $('.listview').click(function(e){
     const view = $(this).data("view");
     $("#pdlist>div").removeClass();
     $('.listview rect').removeClass('list-act-color').addClass('list-color');
-    if(view ==3 ){
+    if(view == 3 ){
         $(this).find('rect').removeClass('list-color').addClass('list-act-color');
         $("#pdlist>div").addClass("col-md-4 mb-5");
     }else if(view == 4){
