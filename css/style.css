@@ -434,7 +434,7 @@ ul.global-nav {
 }
 
 /**********************  LIST ****************************/
-.list-3,.list-4,.list-5{
+.listview{
     margin-left: 20px;
     margin-right: 20px;
 
@@ -442,8 +442,11 @@ ul.global-nav {
 .list-color{
     fill:var(--gray-color);
 }
+.listview:hover .list-color{
+    fill:var(--gray-dark-color);
+}
 .list-act-color{
-    fill:var(--gray-dark-color)
+    fill:var(--gray-dark-color);
 }
 
 .sort li:hover,
@@ -490,4 +493,14 @@ footer{
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width:768px){
+    .col-md-55{
+        -ms-flex: 0 0 20%;
+        flex: 20%;
+        max-width: 20%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
