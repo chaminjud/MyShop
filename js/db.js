@@ -64,21 +64,23 @@ $(function () {
         }
         $("#newpd").html(newbox);
     });
-
+              
+    // function안에 매개변수는 아무거나 쓰면 된다
     $.get("data/list.json", function(list) {
         let lists = '';
         //forEach => 반복해서 출력한다 for문과 비슷
-         list.forEach(function(item){
+            // function안에 매개변수는 아무거나 쓰면 된다
+         list.forEach(function(item1){
                lists += `
                <div class="col-md-3 mb-5">
                     <div class="card">
-                        <a href="detail.jsp?num=${item.num}" class="card-img">
-                            <img src="${item.img}" class="card-img-top" alt="${item.img}"></a>
+                        <a href="detail.jsp?num=${item1.num}" class="card-img">
+                            <img src="${item1.img}" class="card-img-top" alt="${item1.img}"></a>
                         <a href="#" class="card-body">
                             <h5 class="mt-4 pb-2 border-bottom">OFFICE LOOK
                                 <span class="badge badge-danger">New</span>
                             </h5>
-                            <p class="desc">${item.title}</p>
+                            <p class="desc">${item1.title}</p>
                             <p class="price">
                                 <span class="or">100,000원</span>
                                 <span>80,000원</span>
